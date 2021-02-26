@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "site" : "amandevslackclone",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": null
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
